@@ -107,11 +107,11 @@
             // Insert a for loop
             for (int i = 0;i < numbers.Length; i++)
             {
-                if (numbers[i].number > numToCompare.number)
+                if (numbers[i] > numToCompare)
                 {
                     Console.WriteLine($"{numbers[i].number} is higher.");
                 }
-                else if (numbers[i].number < numToCompare.number)
+                else if (numbers[i] < numToCompare)
                 {
                     Console.WriteLine($"{numbers[i].number} is lower.");
                 }
